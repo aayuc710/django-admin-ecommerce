@@ -99,4 +99,3 @@ Can be deployed to Heroku, Render, or DigitalOcean
 ## 📬 Contact
 Ayushi Patel
 📧 patelaayushi1003@gmail.com
-🔗 LinkedIn
