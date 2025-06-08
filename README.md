@@ -37,43 +37,31 @@ cd django-ecommerce-admin
 ```
 2. Create and activate a virtual environment
 ```bash
-Copy
-Edit
 python -m venv env
 source env/bin/activate        # Linux/Mac
 env\Scripts\activate           # Windows
 ```
 3. Install project dependencies
 ```bash
-Copy
-Edit
 pip install -r requirements.txt
 ```
 4. Set up the database
 ```bash
-Copy
-Edit
 python manage.py makemigrations
 python manage.py migrate
 ```
 5. Create a superuser
 ```bash
-Copy
-Edit
 python manage.py createsuperuser
 ```
 6. Run the development server
 ```bash
-Copy
-Edit
 python manage.py runserver
 ```
 ### 🌐 Environment Variables (optional)
 Create a .env file (if you're using python-decouple or similar):
 
 ```env
-Copy
-Edit
 SECRET_KEY=your_django_secret_key
 DEBUG=True
 DB_NAME=your_db_name
@@ -84,14 +72,10 @@ DB_PASSWORD=your_db_password
 To run unit tests for the project:
 
 ```bash
-Copy
-Edit
 python manage.py test
 ```
 ## 📂 Project Structure
 php
-Copy
-Edit
 ecommerce-admin/
 ├── ecommerce/            # Project configuration
 ├── dashboard/            # Main app with views, models, URLs
